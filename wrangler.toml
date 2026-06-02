@@ -3,6 +3,8 @@ main = "src/index.ts"
 compatibility_date = "2026-06-02"
 account_id = "3a88eab50b31af015b505603bcf87e55"
 
+workers_dev = false
+
 # Routes are intentionally NOT declared here. Routes are applied out-of-band
 # via the Cloudflare API after canary verification (see README.md). This keeps
 # `wrangler deploy` inert with respect to traffic until an operator opts a
